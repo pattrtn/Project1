@@ -35,10 +35,9 @@ Develop a comprehensive understanding of the interplay between rain and allergie
 #### Data Import & Cleaning:
 * Step 1 : Choose Data from data.gov.sg
 * Step 2 : Import data by using Pandas
-Step 3 : Check for missing values , datatype and any obvious issues
-No missing value
-Step 4 : Fixing and cleaning data
-Change data ‘month’ to datetime type
+* Step 3 : Check for missing values , datatype and any obvious issues
+* Step 4 : Fixing and cleaning data
+** Change data ‘month’ to datetime type
 Create new columns for month and year
 Merge rain data
 Merge air pollution related data
