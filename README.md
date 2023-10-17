@@ -24,7 +24,7 @@ Develop a comprehensive understanding of the interplay between rain and allergie
 * [`RelativeHumidityMonthlyMean`](./Data/RelativeHumidityMonthlyMean.csv): Monthly mean relative humidity
 
 
-**Datasets corresponding to Air Quality:**
+**Datasets corresponding to Air Pollution:**
 * [`air-pollutant-ozone`](./Data/air-pollutant-ozone.csv): Annual daily maximum 8-hr means for ozone (µg/m3)
 * [`air-pollutant-particulate-matter-pm2-5`](./Data/air-pollutant-particulate-matter-pm2-5.csv): Annual means for PM2.5 (µg/m3)
 * [`AirPollutantNitrogenDioxide`](./Data/AirPollutantNitrogenDioxide.csv): Annual means for nitrogen dioxide (µg/m3)
