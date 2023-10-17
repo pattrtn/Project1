@@ -37,15 +37,6 @@ Develop a comprehensive understanding of the interplay between rain and allergie
 * Step 2 : Import data by using Pandas
 * Step 3 : Check for missing values , datatype and any obvious issues
 * Step 4 : Fixing and cleaning data
-- Change data ‘month’ to datetime type
-- Create new columns for month and year
-Merge rain data
-Merge air pollution related data
-Find sum and mean for rain data
-Merge rain data and air pollution data
-Check and drop empty row
-Save cleaned dataframes as csv files.
-
 
 ---
 
@@ -62,3 +53,15 @@ Save cleaned dataframes as csv files.
 |pm2.5_mean|float|AirPollutantParticulateMatterPM2.5|  Annual means for PM2.5 (µg/m3) are based on WHO Air Quality Guidelines (global update 2005).|
 |o3_mean|float|air-pollutant-ozone.csv|Annual daily maximum 8-hr means for ozone (µg/m3)|
 |no2_mean|int|AirPollutantNitrogenDioxide|Annual means for nitrogen dioxide (µg/m3)|
+
+---
+
+#### Conclusions
+The interaction between rain and weather allergies is complex and has some influenced by air pollutants like particulate matter (PM2.5) and ozone.
+Prolonged exposure to both air pollution and allergens can have cumulative health effects, potentially worsening respiratory conditions and leading to chronic health issues.
+
+---
+
+#### Recommendations
+
+It's essential for individuals with allergies and respiratory conditions to monitor air quality and weather conditions especially on first month of year and the end of the year, take necessary precautions, and seek medical advice and treatments to manage symptoms effectively. Additionally, efforts to reduce air pollution and limit exposure to pollutants can contribute to improved respiratory health and the prevention of allergic diseases.
