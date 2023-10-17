@@ -37,8 +37,8 @@ Develop a comprehensive understanding of the interplay between rain and allergie
 * Step 2 : Import data by using Pandas
 * Step 3 : Check for missing values , datatype and any obvious issues
 * Step 4 : Fixing and cleaning data
-** Change data ‘month’ to datetime type
-Create new columns for month and year
+- Change data ‘month’ to datetime type
+- Create new columns for month and year
 Merge rain data
 Merge air pollution related data
 Find sum and mean for rain data
