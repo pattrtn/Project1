@@ -1,5 +1,5 @@
 # Project1
-#### Problem:
+#### Problem Statement:
 For student from research club who need to understand why her allergies worse when it rains and decide to develop a comprehensive understanding of the interplay between rain and allergies.
 
 #### Background: 
@@ -28,3 +28,38 @@ Develop a comprehensive understanding of the interplay between rain and allergie
 * [`air-pollutant-ozone`](./Data/air-pollutant-ozone.csv): Annual daily maximum 8-hr means for ozone (µg/m3)
 * [`air-pollutant-particulate-matter-pm2-5`](./Data/air-pollutant-particulate-matter-pm2-5.csv): Annual means for PM2.5 (µg/m3)
 * [`AirPollutantNitrogenDioxide`](./Data/AirPollutantNitrogenDioxide.csv): Annual means for nitrogen dioxide (µg/m3)
+
+
+---
+
+#### Data Import & Cleaning:
+Step 1 : Choose Data from data.gov.sg
+Step 2 : Import data by using Pandas
+Step 3 : Check for missing values , datatype and any obvious issues
+No missing value
+Step 4 : Fixing and cleaning data
+Change data ‘month’ to datetime type
+Create new columns for month and year
+Merge rain data
+Merge air pollution related data
+Find sum and mean for rain data
+Merge rain data and air pollution data
+Check and drop empty row
+Save cleaned dataframes as csv files.
+
+
+---
+
+#### Data Dictionary
+|Feature|Type|Dataset|Description|
+|:--|:--|:--|:--|
+|year|int||Year of collecting data|
+|rainydays|int|rainfall-monthly-number-of-rain-days|Monthly number of rain days from 1982 to 2022 if the total rainfallis 0.2mm/day or more.|
+|totalrainfall|float|  rainfall-monthly-total|Monthly total rain recorded in mm(millimeters) from 1982 to 2022|
+|mean_sunshine_hrs|float|sunshine-duration-monthly-mean-daily-duration|The monthly mean sunshine hours in a day recorded|
+|temp_min|float|SurfaceAirTemperatureMonthlyMeanDailyMaximum|The monthly mean daily minimum temperature recorded|
+|temp_max|float|surface-air-temperature-monthly-mean-daily-minimum|The monthly mean daily maximum temperature recorded|
+|rh_mean|float|RelativeHumidityMonthlyMean.csv|Monthly mean relative humidity|
+|pm2.5_mean|float|AirPollutantParticulateMatterPM2.5|  Annual means for PM2.5 (µg/m3) are based on WHO Air Quality Guidelines (global update 2005).|
+|o3_mean|float|air-pollutant-ozone.csv|Annual daily maximum 8-hr means for ozone (µg/m3)|
+|no2_mean|int|AirPollutantNitrogenDioxide|Annual means for nitrogen dioxide (µg/m3)|
